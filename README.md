@@ -16,4 +16,6 @@ git remote add <new repository name ex) myrepo> <new repository url>
 git branch -M main
 # you create branch upload remote repository.
 git push -u <new repository name ex) myrepo> main
+# you want to create 
+git checkout -b <new branch name> <commit_id>
 ```
