@@ -14,6 +14,8 @@ git push -u origin main
 git remote add <new repository name ex) myrepo> <new repository url>
 # create and switch new branch having repository
 git branch -M main
+# if create and add new branch from already exists commit
+git branch -M main <commit_id>
 # you create branch upload remote repository.
 git push -u <new repository name ex) myrepo> main
 # you want to create 
